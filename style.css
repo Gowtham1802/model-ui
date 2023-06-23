@@ -8,13 +8,6 @@ html {
   font-size: 16px;
 }
 
-:root {
-  --clr-cornflower-blue: rgb(117, 139, 253);
-  --clr-periwinkler: rgb(174, 184, 254);
-  --clr-persian-indigo: rgb(39, 24, 126);
-  --clr-anti-flash-white: rgb(241, 242, 246);
-}
-
 .all_btns {
   width: 30rem;
   display: flex;
@@ -33,27 +26,27 @@ html {
   color: white;
 }
 
-.slide_one {
+.slide_one{
   background-color: rgb(234, 83, 83);
 }
 
-.slide_two {
+.slide_two{
   background-color: rgb(224, 224, 40);
 }
 
-.slide_three {
+.slide_three{
   background-color: rgb(49, 197, 49);
 }
 
 .view_box {
-  background-color: gainsboro;
+  background-color: rgb(154, 176, 183);
   width: 26rem;
   padding: 1rem;
   margin: 10rem auto;
   border: 1px solid;
   border-radius: 1rem;
   position: relative;
-  /* display: none; */
+
 }
 
 .java_heading {
@@ -80,5 +73,5 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(117, 112, 112, 0.5);
 }

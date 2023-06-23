@@ -20,7 +20,7 @@ function open(){
 }
 
 // to select a button from a container
-for(let i=0;i<btn.length;i++){
+for(let i=0;i < btn.length; i++){
   btn[i].addEventListener('click',open);
   close_icon.addEventListener('click',close);
 }
@@ -34,7 +34,7 @@ document.addEventListener('keydown',(event)=>{
 
 document.addEventListener('click',(event)=>{
   console.log(event);
-  if(event.target.classList.contains("hide_box")){
+  if(event.target.classList.view_box("hide_box")){
     close();
   }
 })
